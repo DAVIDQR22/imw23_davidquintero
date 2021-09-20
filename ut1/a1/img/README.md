@@ -1,11 +1,16 @@
 1. Busca en Internet alguna aplicación que muestre la fortaleza de una contraseña. Utilizando esa aplicación determina la fortaleza de una contraseña con las siguientes características:
-        1 *Tres caracteres en minúsculas.*
-        2 *Siete caracteres mezclando mayúsculas, minúsculas y caracteres especiales.*
 
+        1 *Tres caracteres en minúsculas.*
+		![](..\imw23_davidquintero\ut1\a1\img\p1_1.png)
+		
+        2 *Siete caracteres mezclando mayúsculas, minúsculas y caracteres especiales.*
+		![](..\imw23_davidquintero\ut1\a1\img\p1_2.png)
+		
 2. Describe detalladamente donde se pueden ver los certificados digitales que hay instalados en un navegador.
 
   **1. Nos vamos a ajustes arriba a la derecha en firefox, y ahí filtramos por certificados. nos saldrán**
-  ![](../imw23_davidquintero/ut1/a1/img/p1_2.png)
+  ![](../imw23_davidquintero/ut1/a1/img/p1_3.png)
+  
 3. Escribe tres acciones que mejorarían la seguridad de un sistema.
 
   -Sentido común
@@ -13,13 +18,18 @@
   -proteger los navegadores
 
   -cuidado de contraseñas
+  
 4. Pon un ejemplo de cada una de las siguientes amenazas:
+
         1 Interrupción.
           --destrucción de un elemento hardware.
+		  
         2 Interceptación.
           --Acceso no autorizado de una base de datos.
+		  
         3 Modificación.
           --Cambio de un documento o archivo mientras se envia sin autorización.
+		  
         4 Fabricación.
           --Crear un archivo parecido al que se envia y siendo difícil distinguirlos
 5. Investiga en Internet y enumera tres sistemas de control de acceso para personas.
@@ -28,6 +38,7 @@
   2. Sistemas autónomos
 
   3. Control de accesos en la nube
+  
 6. Describe brevemente las partes más importantes de las que consta un grupo electrógeno.
 
 [motor]: El motor representa la fuente de energía mecánica para que el alternador gire y genere electricidad.
@@ -48,6 +59,7 @@
 
 8. ¿Cuántas claves serían necesarias para que 3 personas se intercambiaran información utilizando cifrado simétrico? ¿Y si fuesen 4 personas?
 
+	--Solo se necesitaría una ya que es un método criptográfico en el cual se usa una misma clave para cifrar y descifrar mensajes en el emisor y el receptor.
 
 9. Describe detalladamente cómo conseguir un certificado digital para una persona jurídica.
 ![](../imw23_davidquintero/ut1/a1/img/p1_9)

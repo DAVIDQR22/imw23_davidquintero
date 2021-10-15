@@ -1,4 +1,4 @@
-#Segundo sitio web NMginx
+# Segundo sitio web NMginx
 ## Configuración Nginx
 
 ### Paso 1: Configuramos nuestro dominio

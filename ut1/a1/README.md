@@ -20,28 +20,29 @@
 
 
 ## Pagina tirando
-![]()
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/1enlace.png)
 Comporbamos que la pagina conecta al dominio que hemos creado a travez de Nginx.
 ##
-![]()
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/2portadas.png)
 Imagen de la portada de nuestra web.
 
 ##
-![]()
+
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/3-2enlaces.png)
 El lugar donde se supone que nos llevara los enlaces de las imágenes y titulos de las series.
 
 ##
-![]()
+![](![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/3enlaces.png))
 Vemos que son enlaces dándole click derecho.
 
 ##
-![]()
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/4nano.png)
 Un poco como hice mi html.
 
 ##
-![]()
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/5ubicatex.png)
 Lo que tenemos dentro de la carpeta series donde se encuentra nuestra página web.
 
 ##
-![]()
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a1/img/6pagina.png)
 Como queda finalmente la pagina web.

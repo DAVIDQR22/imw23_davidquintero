@@ -97,102 +97,24 @@ Recargamos una vez más el servicio **nginx** para que los cambios se guarden y 
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/7-1sitiossl.png)
 
-Para conseguir que ésta sea una página segura con certificado, tenemos que instalar la aplicación **certbot**, la cual se encargará de modificar los archivos necesarios para cumplir el objetivo según la configuración que hagamos.
-
-Para ello, ejecutamos los siguientes comandos:
-
-![update](img/web3/3.12update.png)
-
-![install](img/web3/3.13install.png)
-
-![add](img/web3/3.14add.png)
-
-![python](img/web3/3.15python.png)
-
-Ahora lo ejecutamos con el siguiente comando, y para configurarlo, respondemos lo que nos va preguntando a gusto de cada uno:
-
-![ejecutarcert](img/web3/3.16ejecutar.png)
-
->**OJO**, a esta pregunta responder a la dirección que pide el ejercicio.
-
->![eleccion](img/web3/3.17elegir3.png)
-
-Al entrar en el fichero */etc/nginx/sites-available/ssl.aluXXXX/students* vemos que la aplicación a añadido líneas automáticamente.
-
-![postcert](img/web3/postcerbot.jpg)
-
-Procedemos a volver a recargar el servicio **nginx**.
-
-Al comprobar entrando a la URL que configuramos, vemos que al lado de ella aparece un candado, lo que significa que es un sitio web seguro.
-
-![finalcandado](img/web3/final.jpg)
-
-![finalcandado2](img/web3/final2.jpg)
-
 ## Sitio web 4
 
 Lo que nos pide este último ejrcicio es la  redirección cualquier petición del dominio http://redirect.aluXXXX.me al dominio http://target.aluXXXX.me.
 
-Como en los otros tres ejercicios, debemos empezar creando el fichero */etc/nginx/sites-available/redirect.aluXXXX.me*.
+Configuraremos los archivos y haremos sus respectivo enlaces, como hemos hecho en las practicas anteriores.
 
-![fichero](img/web4/4.1creacionserver.png)
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/8sitiosredirect.png?raw=true)
 
-Dentro de la carpeta **webapps** descargamos el siguiente **.zip** usando el comando *wget*.
+![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/9sitiostarget.png)
 
-```
-https://github.com/sdelquin/claseando/raw/master/imw/UT1/assignments/assignment3/initializr-verekia-4.0.zip
-```
+No olvidarnos de crear la carpetas.
+![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/10sitiostarget.png)
 
-![wget](img/web4/4.2descargar.png)
+Para target.alua98c02009j.me descargaremos el zip 'initializr-verekia-4.0.zip.' y lo estraemos en la carpeta de target.
 
-Descomprimimos lo que hemos descargado usando el comando **unzip**.
+![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/11sitiostarget.png)
 
-![unzip](img/web4/4.3unzip.png)
+![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/11sitiostarget.png)
 
-Y seguimos los siguientes pasos para borrar lo descargado y quedarnos con el fichero descomprimido y transformarlo en la carpeta **target**.
 
-![carpetatarget](img/web4/4.3carpetatarget.png)
 
-Ahora crearemos el fichero */etc/nginx/sites-available/target.aluXXXX.me*.
-
-![servertarget](img/web4/4.4servertarget.png)
-
-Y enlazamos las dos direcciones desde */etc/nginx/sites-enabled*.
-
-![enlazartarget](img/web4/4.5enlazar.png)
-
-Si queremos comprobar, abrimos un navegador y buscamos *redirect.aluXXXX.me/test*, *redirect.aluXXXX.me/probando*, *redirect.aluXXXX.me/hola* o *redirect.aluXXXX.me/cualquiercosa*.
-
-![compro](img/web4/4.6test.png)
-
-![compro2](img/web4/4.7probando.png)
-
-![compro3](img/web4/4.8hola.png)
-
-![comprobacion](img/web4/4.6comprobacion.png)
-
-Vemos que nos ha redirigido a *target.aluXXXX.me*.
-
-Ahora vamos a ir al directorio */var/log/nginx*
-
-![varlognginx](img/web4/4.9cdvar.png)
-
-Y dentro crearemos la carpeta **redirect**.
-
-![mkdir](img/web4/4.10mkdirred.png)
-
-Y creamos el archivo *redirect.aluXXXX.me*. (**OJO**, si no usamos **sudo** el sistema no nos dejará)
-
-![sudo](img/web4/4.11sudored.png)
-
-En dicho fichero escribiremos lo siguiente:
-
-![nano](img/web4/4.12logs.png)
-
-Comprobamos que en la carpeta **redirect** se han creado los archivos **access.log** y **error.log**.
-
-![complogs](img/web4/4.13complogs.png)
-
-Ahora cada vez que se entre a la página, quedará registrado, como se ve en la siguiente imagen:
-
-![final](img/web4/4.14comprobacionfinal.png)

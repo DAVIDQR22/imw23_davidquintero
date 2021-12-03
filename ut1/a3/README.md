@@ -4,32 +4,23 @@ En esta actividad, vamos a configurar 4 sitios web (virtual hosts) en nuestro se
 
 ## Sitio web 1
 
-Para este sitio web, asignaremos la siguiente dirección: *"http://imw.aluXXXX.me"*.
-Dicha dirección nos deberá enseñar una página con la imagen "Diagrama de unidades de trabajo de IMW", la cual habremos descargado como se enseñará a continuación.
-
-![descarga imagen](img/web1/1.1descargadiagrama.png)
+Para el primer sitio web lo primero quearemos sera crear la estructura de carpetas.
 
 Crearemos un directorio *imw* dentro de la carpeta **webapps** y guardamos ahí la imagen.
 
-![guarda](img/web1/1.3imagenimg.png)
+![guarda](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3sitioimw.png)
 
-Luego creamos el servidor editando el fichero */etc/nginx/sites-available/imw.aluXXXX.me* usando el comando **nano**.
+* Luego creamos el servidor editando el fichero */etc/nginx/sites-available/imw.aluXXXX.me* usando el comando **nano**.
 
-![crearserver1](img/web1/1.2creacionruta.png)
+* Creamos un index.html dentro de la carpeta */webapps/imw/* en el que pondremos la imagen para que se muestre correctamente.
 
-Creamos un index.html dentro de la carpeta */webapps/imw/* en el que pondremos la imagen para que se muestre correctamente.
+* Ahora dentro de esta carpeta deberían estar la carpeta **img** y el **index.html**.
 
-Ahora dentro de esta carpeta deberían estar la carpeta **img** y el **index.html**.
-
-![indexfoto](img/web1/1.4indexfoto.png)
-
-A continuación tenemos que enlazar el fichero que hemos creado para que esté disponible desde los **sites-enabled**.
-
-![enlace](img/web1/1.5enlazarvirtualhost.png)
+A continuación tenemos que enlazar el fichero que hemos creado para que esté disponible desde los **sites-enabled** como hemos hecho en las practicas anteriores.
 
 Ahora, para comprobar que hemos realizado este apartado correctamnete, no tenemos que hacer más que abrir el navegador y buscar la URL "**imw.aluXXXX.me**". Si se ve el diagrama, hemos realizado este ejercicio con éxito.
 
-![diagrama](img/web1/1.6diagramfinal.png)
+![descarga imagen](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/2sitioimw.png)
 
 >En caso de que no aparezca, ejecutar el comando "*sudo systemctl reload nginx*"
 

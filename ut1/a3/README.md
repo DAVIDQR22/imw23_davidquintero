@@ -89,15 +89,13 @@ Tras haber hecho esto, para conseguir que la página nos pida el usuario y la co
 
 A modo de comprobación buscaremos en el navegador la página **ssl.aluXXXX.me** y veremos que nos pide identificación.
 
-https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/7sitiossl.png?raw=true
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/7sitiossl.png?raw=true)
 
 Ahora vamos a restringir el acceso al archivo **.htpasswd**, que es donde se guardan las contraseñas.
 
-![restrin](img/web3/3.10restringir.png)
-
 Recargamos una vez más el servicio **nginx** para que los cambios se guarden y vemos que al dirigirnos a *ssl.aluXXXX.me/students/.htpasswd* nos manda a una página con un error, eso significa que hemos restringido el acceso a ese archivo correctamente.
 
-![restringido](img/web3/3.11restringido.png)
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/7-1sitiossl.png)
 
 Para conseguir que ésta sea una página segura con certificado, tenemos que instalar la aplicación **certbot**, la cual se encargará de modificar los archivos necesarios para cumplir el objetivo según la configuración que hagamos.
 

@@ -116,5 +116,6 @@ Para target.alua98c02009j.me descargaremos el zip 'initializr-verekia-4.0.zip.' 
 
 ![image](https://user-images.githubusercontent.com/71705577/144633727-04b8f287-73b1-42db-b176-86dd62c5e9fc.png)
 
+Una vez hecho todo lo anterior si probamos a pedir cualquier petición del dominio http://redirect.aluXXXX.me al dominio http://redirect.aluXXXX.me/hola | http://redirect.aluXXXX.me/test | http://redirect.aluXXXX.me/probando nos redigira a la siguiente pagina.
 
-
+![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/12sitiostarget.png)

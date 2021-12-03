@@ -66,29 +66,22 @@ Comprobamos que la página *warlib.alua98c02009j.me:9000* enseña un index con u
 
 ## Sitio web 3
 
-En este ejercicio debemos mostrar una página web con el nombre de todo el alumnado de clase a través de la página *https://ssl.aluXXXX.me/students/* que crearemos a continuación.
+En este ejercicio debemos mostrar una página web con el nombre de todo el alumnado de clase a través de la página *http://ssl.aluXXXX.me/students/* que crearemos a continuación.
 
 Antes que nada, tenemos que crear el fichero que dará lugar al servidor en la carpeta */etc/nginx/sites-available/* al que llamaremos *ssl.aluXXXX.me*.
 
-![locationssl](img/web3/3.1location.png)
-
 Creamos la carpeta **/webapps/students** y dentro de ella el **index.html** en el que pondremos la lista de todos los alumnos.
 
-![carpetastudents](img/web3/3.2crearcarpeta.png)
-
-![indexssl](img/web3/3.3crearindex.png)
+![carpetastudents](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/5sitiossl.png?raw=true)
 
 Ahora vamos anlazar en la carpeta */etc/nginx/sites-enabled* como en los apartados anteriores.
 
-![enlazarssl](img/web3/3.4enlazar.png)
-
 Recargamos otra vez el servicio **nginx** si queremos comprobar que vamos bien encaminados.
 
-![1comprobacion](img/web3/3.5comprobarlista.png)
 
-A continuación, con estos dos comandos, crearemos una contraseña encriptada eligiendo una contraseña, en este caso "**2asir**" y una palabra clave par la encriptación "**anacardo**". Luego ejecutaremos el segundo comando con un usuario a nuestra elección (**usuario1**) y poniendo la contraseña encriptada que nos ha dado el primer comando.
+A continuación, con estos dos comandos, crearemos una contraseña encriptada eligiendo una contraseña, en este caso "**2asir**" y una palabra clave par la encriptación "**2asir**". Luego ejecutaremos el segundo comando con un usuario a nuestra elección (**usuario1**) y poniendo la contraseña encriptada que nos ha dado el primer comando.
 
-![contra](img/web3/3.6creacionfichero.png)
+![contra](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/6sitiossl.png)
 
 Tras haber hecho esto, para conseguir que la página nos pida el usuario y la contraseña, modificaremos el fichero */etc/nginx/sites-available/ssl.aluXXXX.me* añadiendo las siguientes líneas:
 

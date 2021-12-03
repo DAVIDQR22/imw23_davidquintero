@@ -85,13 +85,11 @@ A continuación, con estos dos comandos, crearemos una contraseña encriptada el
 
 Tras haber hecho esto, para conseguir que la página nos pida el usuario y la contraseña, modificaremos el fichero */etc/nginx/sites-available/ssl.aluXXXX.me* añadiendo las siguientes líneas:
 
-![completlocation](img/web3/3.7completarlocation.png)
+![completlocation](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/4sitiossl.png?raw=true)
 
 A modo de comprobación buscaremos en el navegador la página **ssl.aluXXXX.me** y veremos que nos pide identificación.
 
-![final1](img/web3/3.8final.png)
-
-![final2](img/web3/3.9final2.png)
+https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/7sitiossl.png?raw=true
 
 Ahora vamos a restringir el acceso al archivo **.htpasswd**, que es donde se guardan las contraseñas.
 

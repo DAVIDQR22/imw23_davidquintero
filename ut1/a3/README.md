@@ -105,16 +105,16 @@ Configuraremos los archivos y haremos sus respectivo enlaces, como hemos hecho e
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/8sitiosredirect.png?raw=true)
 
-![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/9sitiostarget.png)
+![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/10sitiostarget.png)
 
 No olvidarnos de crear la carpetas.
-![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/10sitiostarget.png)
+![image](https://user-images.githubusercontent.com/71705577/144633494-f578a861-2a14-4a8a-b05d-b0d295de31fa.png)
 
 Para target.alua98c02009j.me descargaremos el zip 'initializr-verekia-4.0.zip.' y lo estraemos en la carpeta de target.
 
-![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/11sitiostarget.png)
+![image](https://user-images.githubusercontent.com/71705577/144633690-038ed70d-24de-4d55-88a2-f853872da12d.png)
 
-![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/11sitiostarget.png)
+![image](https://user-images.githubusercontent.com/71705577/144633727-04b8f287-73b1-42db-b176-86dd62c5e9fc.png)
 
 
 

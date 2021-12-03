@@ -10,11 +10,11 @@ Crearemos un directorio *imw* dentro de la carpeta **webapps** y guardamos ahí 
 
 ![guarda](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3sitioimw.png)
 
-* Luego creamos el servidor editando el fichero */etc/nginx/sites-available/imw.aluXXXX.me* usando el comando **nano**.
+ Luego creamos el servidor editando el fichero */etc/nginx/sites-available/imw.aluXXXX.me* usando el comando **nano**.
 
-* Creamos un index.html dentro de la carpeta */webapps/imw/* en el que pondremos la imagen para que se muestre correctamente.
+ Creamos un index.html dentro de la carpeta */webapps/imw/* en el que pondremos la imagen para que se muestre correctamente.
 
-* Ahora dentro de esta carpeta deberían estar la carpeta **img** y el **index.html**.
+ Ahora dentro de esta carpeta deberían estar la carpeta **img** y el **index.html**.
 
 A continuación tenemos que enlazar el fichero que hemos creado para que esté disponible desde los **sites-enabled** como hemos hecho en las practicas anteriores.
 
@@ -28,23 +28,21 @@ A continuación, vamos a hacer la segunda parte de este apartado, la cual consis
 
 Primero nos dirigimos a la carpeta **webapps** y creamos la carpeta **mec**.
 
-![carpetamec](img/web1/1.6.2carpetamec.png)
+![carpetamec](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3-3sitioimw.png)
 
 Tras haberla creado, modificamos el archivo */etc/nginx/sites-available/imw.aluXXXX.me* para añadir la segunda parte de la dirección.
 
-![locationmec](img/web1/1.7creacionmec.png)
+![locationmec](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3-5sitioimw.png)
 
 En la carpeta **mec** que creamos anteriormente, escribimos un fichero *index.html* usando el comando *nano* para añadir el enlace que nos lleve al archivo que pide el ejercicio.
 
-![indexmec](img/web1/1.7enlacemec.png)
+![indexmec](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3-4sitioimw.png)
 
-Ejecutamos el siguiente comando para reiniciar el servicio Nginx y se guarden los cambios.
-
-![reloadmec](img/web1/1.8reload.png)
+Ejecutamos el comando sudo systemctl reload para reiniciar el servicio Nginx y se guarden los cambios.
 
 Para comprobar que hemos finalizado este primer ejercicio, nos vamos a dirigir a la página *imw.aluXXXX.me/mec* haremos click sobre el único enlace que nos debe aparecer, y por último veremos el archivo del Real Decreto.
 
-![pagina mec](img/web1/1.9paginamec.png)
+![pagina mec](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/2-2sitioimw.png)
 
 ![pdf mec](img/web1/1.10pdf.png)
 

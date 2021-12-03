@@ -44,35 +44,25 @@ Para comprobar que hemos finalizado este primer ejercicio, nos vamos a dirigir a
 
 ![pagina mec](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/2-2sitioimw.png)
 
-![pdf mec](img/web1/1.10pdf.png)
-
 ## Sitio web 2
 
 En este segundo ejercicio debemos Debe mostrar el listado de ficheros y directorios de /var/lib de nuestra máquina.
 
-Primero crearemos el fichero */etc/nginx/sites-available/varlib.alu6616.me* y escribimos lo siguiente:
+Primero crearemos el fichero */etc/nginx/sites-available/varlib.alua98c2009j.me* y escribimos lo siguiente:
 
-![crearpagina](img/web2/2.1crearpagina.png)
+![crearpagina](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3-2sitiovarlib.png?raw=true)
 
 >La línea "listen 9000;" es para que la página se pueda ver desde ese puerto.
 
 Ahora crearemos la carpeta **varlib** en la carpeta **webapps**.
 
-![carpetavarlib](img/web2/2.2crearcarpeta.png)
-
-Enlazamos el fichero que creamos en el paso anterior desde */etc/nginx/sites-enabled*
-
-![enlace](img/web2/2.2.1.png)
-
-![enlacevarlib](img/web2/2.2ls.png)
+Enlazamos el fichero que creamos en el paso anterior desde */etc/nginx/sites-enabled* como hicimos en la practica anterior
 
 Volvemos a recargar el servicio nginx para que se guarden los cabios con el comando "*sudo systemctl reload nginx*"
 
-Comprobamos que la página *warlib.alu6616.me:9000* enseña un index con un único enlace y que dentro de ese enlace, se pueden ver todos los ficheros de la carpeta.
+Comprobamos que la página *warlib.alua98c02009j.me:9000* enseña un index con un único enlace y que dentro de ese enlace, se pueden ver todos los ficheros de la carpeta.
 
-![final1](img/web2/final.png)
-
-![final2](img/web2/final2.png)
+![final1](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/3sitiovarlib.png?raw=true)
 
 ## Sitio web 3
 

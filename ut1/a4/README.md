@@ -6,37 +6,30 @@ Queremos que la URL de este sitio web sea `http://php.aluXXXX.me` y que en esa p
 
 Para empezar, crearemos en el directorio *webapps* la carpeta **php**.
 
-![mkdirphp](img/1.2crearcarpeta.png)
-
-![lsweb](img/1.3ls.png)
+![mkdirphp](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/1php.png)
 
 Ahora, en `/etc/nginx/sites-available` crearemos el archivo que dará lugar a nuestro sitio web usando el camando **sudo nano php.aluXXXX.me**.
 
-![sudonano](img/1crear.png)
+![sudonano](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/2php.png)
 
 Y dentro escribiremos lo siguiente:
 
-![nanophp](img/2escribir.png)
+![nanophp](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/3php.png)
 
 Guardamos el archivo y nos dirigimos a la carpeta **/etc/nginx/sites-enabled** para enlazar el archivo.
 
-![sitesenabled](img/3enlazar.png)
+![sitesenabled](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/4php.png)
 
 Volvemos a ir a la carpeta */webapps/php* y descargamos la demo nombrada al principio de la práctica: [demo_php.zip](https://github.com/sdelquin/claseando/blob/master/imw/UT1/assignments/assignment4/demo_php.zip).
 
-![descargademo](img/4descargademo.png)
+La descomprimimos.
+Comprobamos que se ha descomprimido correctamente y borramos el zip descargado.
 
-La descomprimimos con el comando **unzip**.
-
-![unzip](img/5unzip.png)
-
-Comprobamos que se ha descomprimido correctamente y borramos el zip descargado utilizando **rm demo_php.zip**.
-
-![borrarzip](img/6borrarzip.png)
+![resultado1](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/5php.png)
 
 Para comprobar el resultado de este primer sitio web, recargamos el servicio *Nginx* usando el comando `sudo reload Nginx` y deberemos dirigirnos a `php.aluXXXX.me`. Deberiamos ver esto:
 
-![resultado1](img/7resultado.png)
+![resultado1](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/6php.png)
 
 ## Sitio web 2
 
@@ -45,7 +38,7 @@ La URL de este segundo sitio web deberá ser `http://now.aluXXXX.me`
 Al igual que al principio del siti web anterior, nos dirigiremos a la carpeta **webapps**
 y dentro, crearemos otra llamada `now`.
 
-![crear2](img/a-mkdirnow.png)
+![resultado1](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/7python.png)
 
 Dentro de ella ejecutamos el comando **pipenv install**.
 

@@ -42,13 +42,13 @@ y dentro, crearemos otra llamada `now`.
 
 Dentro de ella ejecutamos el comando **pipenv install**.
 
-![pipenvins](img/b-pipenvnow.png)
+![pipenvins](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/8python.png)
 
 A continuación, instalamos los paquetes `flask` y `pytz`.
 
-![flask](img/c-installflask.png)
+![flask](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/9python.png)
 
-![pytz](img/d-installpytz.png)
+![pytz](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/10python.png)
 
 Ahora, en la misma carpeta en la que nos encontrsamos, creamos un fichero `main.py` e introducimos el siguiente código:
 
@@ -73,58 +73,57 @@ def hello():
     )
 ```
 
-![codigo](img/e-codigo.png)
+![codigo](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/11python.png)
 
 Para comprobar que lo hacho anteriormente funciona, ejecutaremos el siguiente comando:
 
-![uwsgi](img/f-comandouwsgi.png)
+![uwsgi](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/12python.png)
 
 Ahora vamos a la carpeta `/etc/nginx/sites-available` y creamos el fichero que dará lugar al servidor **(sudo nano now.aluXXXX.me)**.
 
-![nanoavail](img/g-nanoavailable.png)
+![nanoavail](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/13python.png)
 
 Lo enlazamos en la carpeta `etc/nginx/sites-enabled`.
 
-![enlace](img/h-enlazar.png)
+![enlace](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/14python.png)
 
 Volvemos a ejecutar el comando *reload nginx* para que los cambios queden guardados.
 
-![reload](img/i-reload.png)
+![reload](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/15python.png)
 
 Ahora vamos a crear un archivo de configuración del directorio **now** para el servicio `supervisor`.
 
-![visuper](img/i-visupervisor.png)
+![visuper](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/16python.png)
 
-![visuper2](img/j-visupervisor2.png)
+![visuper2](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/17python.png)
 
 Reiniciamos el servicio *supervisor*:
 
-![restartsuper](img/k-restartsuper.png)
+![restartsuper](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/18python.png)
 
 Luego, en la carpeta *now*, creamos un fichero que llamaremos **run.sh** en el que introduciremos lo siguiente:
 
-![virun](img/l-virun.png)
+![virun](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/19python.png)
 
-![dentrovirun](img/m-virun2.png)
+![dentrovirun](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/20python.png)
 
 Y le damos permisos de ejecución al fichero.
 
-![chmod](img/n-permisosrun.png)
+![chmod](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/21python.png)
 
 Para comprobar los resultados finales, ejecutamos el comando `supervisorctl status` para asegurarnos de que está activo.
 
-![statussuper](img/ñ-superstatus.png)
+![statussuper](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/22python.png)
+
 
 Podemos parar el servicio con `supervisorctl stop now`.
 
-![superctlstop](img/p-stop.png)
-
 Por lo que la página, si intetamos acceder a la página, saldrá esto:
 
-![resulstop](img/p-stop2.png)
+![resulstop](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/23python.png)
 
 Y para finalizar, lo volvemos a iniciar (*supervisorctl restart now*).
 
-![restart](img/q-restart.png)
+![reinciamos](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/22-1python.png)
 
-![restart2](img/q-restart2.png)
+![result](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/23-2python.png)

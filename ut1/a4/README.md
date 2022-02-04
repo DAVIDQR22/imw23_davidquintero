@@ -38,9 +38,6 @@ El primero sera creado a travez de php y el segundo a travez de python.
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-# **UT1-A4: Sirviendo aplicaciones Php y Python**
-En esta actividad nos dispondremos a configurar 2 sitios web (virtual hosts) en nuestro servidor web Nginx, con las siguiguientes características.
-
 ## Sitio web 1
 Queremos que la URL de este sitio web sea `http://php.aluXXXX.me` y que en esa página se muestre la aplicación [demo_php.zip](https://github.com/sdelquin/claseando/blob/master/imw/UT1/assignments/assignment4/demo_php.zip).
 
@@ -171,5 +168,5 @@ Y para finalizar, lo volvemos a iniciar (*supervisorctl restart now*).
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-Se ha aprendido y entendido correctamente a configurar paginas a travez de nginx, pena que no se pudiese hacer la parte del certbot.
+
 

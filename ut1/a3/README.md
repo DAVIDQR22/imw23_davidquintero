@@ -164,5 +164,5 @@ Una vez hecho todo lo anterior si probamos a pedir cualquier petición del domin
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-
+Se ha aprendido y entendido correctamente a configurar paginas a travez de nginx, pena que no se pudiese hacer la parte del certbot.
 

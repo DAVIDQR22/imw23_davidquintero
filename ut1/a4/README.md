@@ -168,5 +168,5 @@ Y para finalizar, lo volvemos a iniciar (*supervisorctl restart now*).
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-
+La practica es sencilla en su totalidad lo unico es que en mi caso el python no paraba de darme errores y tuve que crear maquina nueva.
 

@@ -92,16 +92,18 @@ Para una configuración básica de WordPress debemos especificar lo siguiente:
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/11.PNG)
 
+* Nos dirigimos a Ajustes, en el panel a la izquierda, y seleccionamos Enlaces permanentes.
+* Seleccionamos Día y nombre y guardamos los cambios.
+
 ### Ajustes de permalinks
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/12.PNG)
 
-* Nos dirigimos a Ajustes, en el panel a la izquierda, y seleccionamos Enlaces permanentes.
-* Seleccionamos Día y nombre y guardamos los cambios.
+* Ahora indicamos a Nginx que enlace estas URLs:
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/13.PNG)
 
-* Ahora indicamos a Nginx que enlace estas URLs:
+
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/14.PNG)
 

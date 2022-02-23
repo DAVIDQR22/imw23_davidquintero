@@ -103,20 +103,21 @@ Para una configuración básica de WordPress debemos especificar lo siguiente:
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/13.PNG)
 
-
-
-![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/14.PNG)
-
 >Editamos el fichero anstes de esta parte de manera que las lienas que contengas "upload_max_filesize = 64"
 "post_max_size = 64" y "max_execution_time = 300"<
 
 * A continuación reiniciamos el servicio php-fpm. Además, deberemos añadir una líneaen el fichero de configuración de Nginx.
 
+
 ### Sitio web seguro
+
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/14.PNG)
+
+* Instalamos snap core para poder trabajar con certbot
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/15.PNG)
 
-* Instalamos snap core para poder trabajar con certbot
+Instalamos certbot clasico.
 
 ![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/16.PNG)
 

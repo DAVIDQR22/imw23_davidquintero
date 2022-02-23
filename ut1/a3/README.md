@@ -1,6 +1,48 @@
-# **UT1-A3: Trabajo con virtual hosts**
+<center>
 
-En esta actividad, vamos a configurar 4 sitios web (virtual hosts) en nuestro servidor web *nginx*.
+# UT1-A3: Trabajo con virtual hosts
+
+
+</center>
+
+***David Quintero Reeve:***
+***ASIR:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+
+### ÍNDICE
+
++ [Introducción](#id1)
++ [Objetivos](#id2)
++ [Material empleado](#id3)
++ [Desarrollo](#id4)
++ [Conclusiones](#id5)
+
+
+#### ***Introducción***. <a name="id1"></a>
+
+En esta práctica pretendemos trabajar con una serie de virtual hosts, a travez de nginx en nuestro servidor.
+Aprenderemos las diferencias de como crearlos y configurarlos.
+
+#### ***Objetivos***. <a name="id2"></a>
+
+Se pretende crear 4 sitios webs:
+
+-- http://imw.aluXXXX.me
+
+-- http://varlib.aluXXXX.me:9000
+
+-- http://ssl.aluXXX.me/students/
+
+-- http://redirect.aluXXXX.me
+
+Cada uno tendra diferentes configuraciones.
+
+#### ***Material empleado***. <a name="id3"></a>
+
+- Una maquina Ubuntu20.04
+
+#### ***Desarrollo***. <a name="id4"></a>
+
+# **UT1-A3: Trabajo con virtual hosts** 
 
 ## Sitio web 1
 
@@ -119,3 +161,8 @@ Para target.alua98c02009j.me descargaremos el zip 'initializr-verekia-4.0.zip.' 
 Una vez hecho todo lo anterior si probamos a pedir cualquier petición del dominio http://redirect.aluXXXX.me al dominio http://redirect.aluXXXX.me/hola | http://redirect.aluXXXX.me/test | http://redirect.aluXXXX.me/probando nos redigira a la siguiente pagina.
 
 ![image](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a3/img/12sitiostarget.png)
+
+#### ***Conclusiones***. <a name="id5"></a>
+
+Se ha aprendido y entendido correctamente a configurar paginas a travez de nginx, pena que no se pudiese hacer la parte del certbot.
+

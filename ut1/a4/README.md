@@ -1,5 +1,42 @@
-# **UT1-A4: Sirviendo aplicaciones Php y Python**
-En esta actividad nos dispondremos a configurar 2 sitios web (virtual hosts) en nuestro servidor web Nginx, con las siguiguientes características.
+<center>
+
+# UT1-A4: Sirviendo aplicaciones Php y Python
+
+
+</center>
+
+***David Quintero Reeve:***
+***ASIR:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+
+### ÍNDICE
+
++ [Introducción](#id1)
++ [Objetivos](#id2)
++ [Material empleado](#id3)
++ [Desarrollo](#id4)
++ [Conclusiones](#id5)
+
+
+#### ***Introducción***. <a name="id1"></a>
+
+En esta práctica pretendemos trabajar con dos virtual hosts, a travez de nginx en nuestro servidor.
+Aprenderemos las diferencias de como crear y configurarlos en python y php.
+
+#### ***Objetivos***. <a name="id2"></a>
+
+Se pretende crear 2 sitios webs:
+
+-- http://php.aluXXXX.me
+
+-- http://now.aluXXXX.me
+
+El primero sera creado a travez de php y el segundo a travez de python.
+
+#### ***Material empleado***. <a name="id3"></a>
+
+- Una maquina Ubuntu20.04
+
+#### ***Desarrollo***. <a name="id4"></a>
 
 ## Sitio web 1
 Queremos que la URL de este sitio web sea `http://php.aluXXXX.me` y que en esa página se muestre la aplicación [demo_php.zip](https://github.com/sdelquin/claseando/blob/master/imw/UT1/assignments/assignment4/demo_php.zip).
@@ -127,3 +164,9 @@ Y para finalizar, lo volvemos a iniciar (*supervisorctl restart now*).
 ![reinciamos](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/22-1python.png)
 
 ![result](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut1/a4/images/23-2python.png)
+
+
+#### ***Conclusiones***. <a name="id5"></a>
+
+La practica es sencilla en su totalidad lo unico es que en mi caso el python no paraba de darme errores y tuve que crear maquina nueva.
+

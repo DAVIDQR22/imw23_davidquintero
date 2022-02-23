@@ -39,7 +39,7 @@ En esta practica aprenderemos a realizar una instalación en un dominio wordpres
 
 ## Implantación de Wordpress
 
-![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/0.png)
+![](https://github.com/DAVIDQR22/imw23_davidquintero/blob/main/ut4/a1/images/0.PNG)
 
 * Para empezar usaremos el intérprete de MySQL para acceder a una base de datos.
 * Creamos una base de datos, un usuario y le asignamos privilegios.
